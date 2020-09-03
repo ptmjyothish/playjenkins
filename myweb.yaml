@@ -5,7 +5,6 @@ metadata:
   labels:
     app: myweb
   name: myweb
-  namespace: stage
 spec:
   replicas: 1
   selector:
@@ -28,7 +27,6 @@ metadata:
   labels:
     app: myweb
   name: myweb
-  namespace: stage
 spec:
   ports:
   - nodePort: 32223
